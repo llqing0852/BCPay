@@ -37,7 +37,7 @@ namespace MallMan
                 return;
             }
 
-            var client = new RestClient($"http://156.237.190.247:8010/pay-admin/api/v1/ali_notify?outTradeNo={tbSysTradeNo.Text.Trim()}&tradeNo={tbTradeNo.Text.Trim()}&orderAmt={tbOrderAmt.Text.Trim()}");
+            var client = new RestClient($"http://47.242.231.136:8010/pay-admin/api/v1/ali_notify?outTradeNo={tbSysTradeNo.Text.Trim()}&tradeNo={tbTradeNo.Text.Trim()}&orderAmt={tbOrderAmt.Text.Trim()}");
             var request = new RestRequest(Method.GET);
 
             IRestResponse response = client.Execute(request);

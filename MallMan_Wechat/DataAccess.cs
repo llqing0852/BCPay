@@ -121,6 +121,6 @@ public static class DataAccess
 
     private static MySqlConnection Get_connection()
     {
-        return new MySqlConnection("server=156.237.190.247;port=13306;database=shopx5;user=payuser;password=P@ssw0rd!2;SslMode=none;");
+        return new MySqlConnection("server=47.242.231.136;port=13306;database=shopx5;user=payuser;password=P@ssw0rd!2;SslMode=none;");
     }
 }
