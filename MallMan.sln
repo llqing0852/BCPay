@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallMan", "MallMan\MallMan.csproj", "{E047C70D-3E30-4EAD-BC7E-6281BC6B7310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallMan_Wechat", "MallMan_Wechat\MallMan_Wechat.csproj", "{03692C6D-E012-4E3F-991A-FFFA3DD7777E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E047C70D-3E30-4EAD-BC7E-6281BC6B7310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E047C70D-3E30-4EAD-BC7E-6281BC6B7310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E047C70D-3E30-4EAD-BC7E-6281BC6B7310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E047C70D-3E30-4EAD-BC7E-6281BC6B7310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03692C6D-E012-4E3F-991A-FFFA3DD7777E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03692C6D-E012-4E3F-991A-FFFA3DD7777E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03692C6D-E012-4E3F-991A-FFFA3DD7777E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03692C6D-E012-4E3F-991A-FFFA3DD7777E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A580676-B9FA-443C-85E0-2960E1657C70}
+	EndGlobalSection
+EndGlobal

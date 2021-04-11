@@ -21,3 +21,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/.vs/MallMan/v15
+/MallMan/.vs/MallMan/v15/Server/sqlite3
+/MallMan/obj
+/MallMan_Wechat/.vs/MallMan/v15/Server/sqlite3
+/MallMan_Wechat/obj
+/MallMan/bin/Debug
+/MallMan_Wechat/bin/Debug
