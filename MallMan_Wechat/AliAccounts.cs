@@ -222,7 +222,7 @@ namespace MallMan
                 string sellerId = dataGridView1[0, e.RowIndex].Value.ToString();
                 string prices = dataGridView1[e.ColumnIndex, e.RowIndex].Value.ToString();
 
-                new EditPrices(sellerId, prices).ShowDialog();
+                new EditPrices(sellerId, domainName, prices).ShowDialog();
                 ReloadDatatable1();
             }
         }

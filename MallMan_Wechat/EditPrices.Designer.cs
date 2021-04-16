@@ -30,11 +30,12 @@
         {
             this.btnEdit = new System.Windows.Forms.Button();
             this.tbPrices = new System.Windows.Forms.TextBox();
+            this.cbForMechant = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(12, 53);
+            this.btnEdit.Location = new System.Drawing.Point(12, 100);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(319, 41);
             this.btnEdit.TabIndex = 13;
@@ -50,11 +51,24 @@
             this.tbPrices.Size = new System.Drawing.Size(319, 35);
             this.tbPrices.TabIndex = 9;
             // 
+            // cbForMechant
+            // 
+            this.cbForMechant.AutoSize = true;
+            this.cbForMechant.Checked = true;
+            this.cbForMechant.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbForMechant.Location = new System.Drawing.Point(13, 64);
+            this.cbForMechant.Name = "cbForMechant";
+            this.cbForMechant.Size = new System.Drawing.Size(196, 22);
+            this.cbForMechant.TabIndex = 14;
+            this.cbForMechant.Text = "应用于商城所有店铺";
+            this.cbForMechant.UseVisualStyleBackColor = true;
+            // 
             // EditPrices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(339, 111);
+            this.ClientSize = new System.Drawing.Size(339, 145);
+            this.Controls.Add(this.cbForMechant);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.tbPrices);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -73,5 +87,6 @@
 
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.TextBox tbPrices;
+        private System.Windows.Forms.CheckBox cbForMechant;
     }
 }
