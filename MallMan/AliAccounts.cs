@@ -102,13 +102,13 @@ namespace MallMan
                 string sellerId = dataGridView1[0, e.RowIndex].Value.ToString();
                 string orderAmt = (new Random().Next(10, 100) / 100.0).ToString();
                 string outTradeNo = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 23);
-                var client = new RestClient("http://47.242.231.136/shopx5/pay/createOrder");
+                var client = new RestClient("http://122.147.254.10/shopx5/pay/createOrder");
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("cache-control", "no-cache");
                 request.AddHeader("Connection", "keep-alive");
                 request.AddHeader("Content-Length", "72");
                 request.AddHeader("Accept-Encoding", "gzip, deflate");
-                request.AddHeader("Host", "47.242.231.136");
+                request.AddHeader("Host", "122.147.254.10");
                 request.AddHeader("Postman-Token", "8ba43ba8-9af5-4ac0-b337-cd27122e822e,c3ab9f87-a83b-451b-9f52-8d03331fcbab");
                 request.AddHeader("Cache-Control", "no-cache");
                 request.AddHeader("Accept", "*/*");

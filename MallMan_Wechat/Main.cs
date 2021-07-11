@@ -249,7 +249,7 @@ namespace MallMan
                 string sellerId = dataGridView3.CurrentRow.Cells["mall_name"].Value.ToString();
                 string orderAmt = (new Random().Next(10, 100) / 100.0).ToString();
                 string outTradeNo = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 23);
-                var client = new RestClient("http://47.242.231.136/shopx5/pay/createWxOrder");
+                var client = new RestClient("http://122.147.254.10/shopx5/pay/createWxOrder");
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
                 request.AddParameter("undefined", $"outTradeNo={outTradeNo}&orderAmt={orderAmt}&account={sellerId}", ParameterType.RequestBody);
